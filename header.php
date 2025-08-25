@@ -107,7 +107,7 @@
                 <a href="<?php echo esc_url(home_url('/')); ?>" class="wordmark navbar-brand order-lg-first me-lg-3">
                     <?php //the_custom_logo(); 
                     ?>
-                    L@WW 2024
+                    L@WW 2025
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSearch" aria-controls="navbarSearch" aria-expanded="false" aria-label="Toggle search">
                     <span class="search-toggler-icon"></span>
@@ -115,23 +115,26 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mb-2 mb-lg-0 order-1 order-lg-2">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="/latww2024/">Home</a>
+                            <a class="nav-link" aria-current="page" href="/latww2025/">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="/latww2024/session-schedule/">Session Schedule</a>
+                            <a class="nav-link" aria-current="page" href="/latww2025/session-schedule/">Session Schedule</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="/latww2024/how-to-register/">How to Register</a>
+                            <a class="nav-link" aria-current="page" href="/latww2025/newsletter/">Daily Newsletter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/latww2025/how-to-register/">How to Register</a>
                         </li>
                         <!-- <li class="nav-item">
-                            <a class="nav-link" href="https://learningcentre.gww.gov.bc.ca/learn-at-work-week/">Past L@WW</a>
+                            <a class="nav-link" aria-current="page" href="/latww2025/video-index/">Session Recordings</a>
                         </li> -->
-
-
-
+                        <li class="nav-item">
+                            <a class="nav-link" href="/learn-at-work-week/">L@WW Event Archive</a>
+                        </li>
                         <li class="nav-item dropdown">
                             <button class="btn btn-link nav-link ml-3 py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static" aria-label="Toggle theme (dark)">
-                                <span class="theme-icon-active"><i class="me-2"></i></span>
+                                <span class="theme-icon-active"><i class="bi bi-moon-stars-fill me-2"></i></span>
                                 <span class="d-none ms-2" id="bd-theme-text">Toggle theme</span>
                             </button>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme-text">
@@ -159,6 +162,7 @@
                             </ul>
                         </li>
                     </ul>
+                    
                 </div>
 
             </div>
