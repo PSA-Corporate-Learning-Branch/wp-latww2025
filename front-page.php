@@ -1,8 +1,8 @@
 <?php get_header() ?>
 <div id="content">
     <!-- Banner Section -->
-    <div class="d-flex p-4 p-md-5 align-items-center banner">
-        
+    <div id="banner">
+        <span class="visually-hidden">Your Career Journey: Upskilling at Every Stage</span>        
     </div>
     <!-- Main Content Section -->
     <div class="container-lg p-4 p-md-5">
