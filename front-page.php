@@ -1,20 +1,21 @@
 <?php get_header() ?>
 <div id="content">
     <!-- Banner Section -->
-    <div class="d-flex p-4 p-md-5 align-items-center" style="height: 12rem; background: #2f3442;">
-        <div class="container-lg py-4 py-md-5">
-            <h1 class="text-white">Learn @ Work Week: October 27 to 31, 2025</h1>
-        </div>
+    <div class="d-flex p-4 p-md-5 align-items-center banner">
+        
     </div>
     <!-- Main Content Section -->
     <div class="container-lg p-4 p-md-5">
+        <h1>Learn @ Work Week: October 27 to 31, 2025</h1>
+        <hr>
         <div class="row mt-md-5">
             <!-- Main Content -->
             <div class="col-lg-8 mb-4 mb-lg-0">
                 <h2>About Learn @ Work Week</h2>
                 <p>Learn @ Work Week (L@WW) is a fully virtual event that aims to reach all BC Public Service employees. Learning activities raise awareness and encourage conversations about key topics relevant to everyone. </p>
                 <h3>Theme: Your Career Journey: Upskilling at Every Stage</h3>
-                <p>This theme focuses on how the BC Public Service can support employee learning goals throughout their entire career. It highlights the value of continuous learning and shows the many learning and development opportunities available to employees. Each event focuses on a different topic around career growth, from new employees through mid-career development, leadership opportunities and more. Join us to:</p>
+                <p>This theme focuses on how the BC Public Service can support employee learning goals throughout their entire career. It highlights the value of continuous learning and shows the many learning and development opportunities available to employees.</p>
+                <p>Each session focuses on a different topic around career growth, from new employees through mid-career development, leadership opportunities and more. Join us to:</p>
                 <ul>
                     <li>Explore tools, resources and strategies that support career growth within the BC Public Service
                     </li>
@@ -29,7 +30,7 @@
                         <h3 class="card-title fs-4">Accessibility</h3>
                         <p class="card-text">All sessions include ASL interpretation and CART services.</p>
                         <!-- <a href="https://www.streamtext.net/player?event=bcpsa" target="_blank" class="btn btn-primary mb-3">Access CART services with Streamtext</a> -->
-                        <p class="card-text">If you need any accommodations to participate in L@WW, please <a href="https://sfs7.gov.bc.ca/affwebservices/public/saml2sso?SPID=urn:ca:bc:gov:customerportal:prod">submit an AskMyHR service request</a> using the category "Learning Centre".</p>
+                        <p class="card-text">If you need any accommodations to participate in L@WW, please <a href="https://sfs7.gov.bc.ca/affwebservices/public/saml2sso?SPID=urn:ca:bc:gov:customerportal:prod">submit an AskMyHR service request</a> using the category "Corporate Learning".</p>
                     </div>
                 </div>
             </div>

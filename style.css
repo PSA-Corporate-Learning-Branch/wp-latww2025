@@ -129,6 +129,11 @@
     color: var(--bs-gray-900) !important;
 }
 
+[data-bs-theme=dark] .banner {
+    background-color: #2F3442;
+    height: 15em;
+    background-image: url(https://learn.bcpublicservice.gov.bc.ca/latww/latww2025/img/LWW_YourCareerJourney.svg);
+}
 /* Images and icons */
 img,
 iframe {
