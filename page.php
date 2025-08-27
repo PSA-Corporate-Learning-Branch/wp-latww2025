@@ -58,9 +58,8 @@ while (have_posts()) :
             </div>
         </div>
         <div class="bg-secondary-subtle">
-
             <div class="container-lg py-md-5 py-4 ps-3 pe-4 pe-md-5 bg-light-subtle">
-                <div class="d-flex"><img src="https://learn.bcpublicservice.gov.bc.ca/latww/latww2025/img/latww-swoop.svg" style="margin: -100px 0 0 -50px; height: 10rem;"></img></div>
+
                 <div id="main">
                     <div class="row">
                         <!-- Session Description -->
@@ -107,6 +106,9 @@ while (have_posts()) :
                         </div>
                         <!-- At a glance and materials -->
                         <div class="col-lg-4">
+                            <div class="d-lg-flex d-none justify-content-end">
+                                <img src="https://learn.bcpublicservice.gov.bc.ca/latww/latww2025/img/latww-swoop.svg" style="margin: -100px 0 -24px -50px; height: 10rem; z-index: 1;">
+                            </div>
                             <div class="card bg-dark-subtle mb-4">
                                 <div class="card-body">
                                     <h3 class="card-title">Session at a glance</h3>
@@ -191,7 +193,7 @@ while (have_posts()) :
                         <h3>Accessibility</h3>
                         <p>All sessions include ASL interpretation and CART services.</p>
                         <!-- <a href="https://www.streamtext.net/player?event=bcpsa" target="_blank" class="btn btn-primary mb-3">Access CART services with Streamtext</a> -->
-                        <p>If you need any accommodations to participate in L@WW, please <a href="https://sfs7.gov.bc.ca/affwebservices/public/saml2sso?SPID=urn:ca:bc:gov:customerportal:prod">submit an AskMyHR service request</a> using the category "Learning Centre".</p>
+                        <p>If you need any accommodations to participate in L@WW, please <a href="https://sfs7.gov.bc.ca/affwebservices/public/saml2sso?SPID=urn:ca:bc:gov:customerportal:prod">submit an AskMyHR service request</a> using the category "Corporate Learning".</p>
                         <h3>Session Recording</h3>
                         <?php if (!empty($toBeRecorded)): ?>
                             <p>This session will be recorded and will be available for viewing after Learn @ Work Week. The video will be posted here as well as listed in the LearningHUB.</p>
