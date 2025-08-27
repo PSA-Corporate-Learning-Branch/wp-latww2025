@@ -48,7 +48,7 @@ while (have_posts()) :
                             <?php foreach ($monday as $event) : ?>
                                 <div class="col">
 
-                                    <h4><a class="text-decoration-none" href="/latww2024/monday/<?= $event->post_name ?>"><?= $event->post_title ?></a></h4>
+                                    <h4><a class="text-decoration-none" href="/latww2025/monday/<?= $event->post_name ?>"><?= $event->post_title ?></a></h4>
                                     <?php $start = get_post_meta($event->ID, 'startTime', TRUE) ?>
                                     <?php $end = get_post_meta($event->ID, 'endTime', TRUE) ?>
                                     <h5 class="text-dark-emphasis"><?= $start ?> to <?= $end ?></h5>
@@ -96,7 +96,7 @@ while (have_posts()) :
                             <?php foreach ($tuesday as $event) : ?>
                                 <div class="col">
 
-                                    <h4><a class="text-decoration-none" href="/latww2024/tuesday/<?= $event->post_name ?>"><?= $event->post_title ?></a></h4>
+                                    <h4><a class="text-decoration-none" href="/latww2025/tuesday/<?= $event->post_name ?>"><?= $event->post_title ?></a></h4>
                                     <?php $start = get_post_meta($event->ID, 'startTime', TRUE) ?>
                                     <?php $end = get_post_meta($event->ID, 'endTime', TRUE) ?>
                                     <h5 class="text-dark-emphasis"><?= $start ?> to <?= $end ?></h5>
@@ -143,7 +143,7 @@ while (have_posts()) :
                             <?php foreach ($wednesday as $event) : ?>
                                 <div class="col">
 
-                                    <h4><a class="text-decoration-none" href="/latww2024/wednesday/<?= $event->post_name ?>"><?= $event->post_title ?></a></h4>
+                                    <h4><a class="text-decoration-none" href="/latww2025/wednesday/<?= $event->post_name ?>"><?= $event->post_title ?></a></h4>
                                     <?php $start = get_post_meta($event->ID, 'startTime', TRUE) ?>
                                     <?php $end = get_post_meta($event->ID, 'endTime', TRUE) ?>
                                     <h5 class="text-dark-emphasis"><?= $start ?> to <?= $end ?></h5>
@@ -190,7 +190,7 @@ while (have_posts()) :
                             <?php foreach ($thursday as $event) : ?>
                                 <div class="col">
 
-                                    <h4><a class="text-decoration-none" href="/latww2024/thursday/<?= $event->post_name ?>"><?= $event->post_title ?></a></h4>
+                                    <h4><a class="text-decoration-none" href="/latww2025/thursday/<?= $event->post_name ?>"><?= $event->post_title ?></a></h4>
                                     <?php $start = get_post_meta($event->ID, 'startTime', TRUE) ?>
                                     <?php $end = get_post_meta($event->ID, 'endTime', TRUE) ?>
                                     <h5 class="text-dark-emphasis"><?= $start ?> to <?= $end ?></h5>
@@ -236,7 +236,7 @@ while (have_posts()) :
                             <?php foreach ($friday as $event) : ?>
                                 <div class="col">
 
-                                    <h4><a class="text-decoration-none" href="/latww2024/friday/<?= $event->post_name ?>"><?= $event->post_title ?></a></h4>
+                                    <h4><a class="text-decoration-none" href="/latww2025/friday/<?= $event->post_name ?>"><?= $event->post_title ?></a></h4>
                                     <?php $start = get_post_meta($event->ID, 'startTime', TRUE) ?>
                                     <?php $end = get_post_meta($event->ID, 'endTime', TRUE) ?>
                                     <h5 class="text-dark-emphasis"><?= $start ?> to <?= $end ?></h5>
