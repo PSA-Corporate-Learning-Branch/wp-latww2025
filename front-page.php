@@ -1,14 +1,15 @@
 <?php get_header() ?>
 <div id="content">
     <!-- Banner Section -->
-    <div id="banner">
-        <span class="visually-hidden">Your Career Journey: Upskilling at Every Stage</span>        
+    <div class="banner-container">
+        <div class="banner-image">
+            <h1 class="visually-hidden">Your Career Journey: Upskilling at Every Stage</h1>
+        </div>
     </div>
+    <h2 class="mb-0 p-3 text-center text-white" style="background-color: #2f3442;">Learn @ Work Week: October 27 to 31, 2025</h2>
     <!-- Main Content Section -->
-    <div class="container-lg p-4 p-md-5">
-        <h1>Learn @ Work Week: October 27 to 31, 2025</h1>
-        <hr>
-        <div class="row mt-md-5">
+    <div class="container-lg px-4 px-md-5">
+        <div class="row my-md-5">
             <!-- Main Content -->
             <div class="col-lg-8 mb-4 mb-lg-0">
                 <h2>About Learn @ Work Week</h2>
