@@ -121,16 +121,16 @@
                             <a class="nav-link" aria-current="page" href="/latww2025/session-schedule/">Session Schedule</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="/latww2025/newsletter/">Daily Newsletter</a>
+                            <a class="nav-link" aria-current="page" href="/latww2025/daily-newsletter/">Daily Newsletter</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="/latww2025/how-to-register/">How to Register</a>
                         </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="/latww2025/video-index/">Session Recordings</a>
-                        </li> -->
                         <li class="nav-item">
-                            <a class="nav-link" href="/learn-at-work-week/">L@WW Event Archive</a>
+                            <a class="nav-link" aria-current="page" href="/latww2025/video-index/">Session Recordings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/learn-at-work-week/" target="_blank" rel="noopener noreferrer">L@WW Event Archive<i class="bi bi-box-arrow-up-right ms-2" aria-hidden="true"></i><span class="visually-hidden"> (opens a new window)</span></a>
                         </li>
                         <li class="nav-item dropdown">
                             <button class="btn btn-link nav-link ml-3 py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static" aria-label="Toggle theme (dark)">
@@ -162,7 +162,7 @@
                             </ul>
                         </li>
                     </ul>
-                    
+
                 </div>
 
             </div>

@@ -17,7 +17,7 @@ get_header();
 /* Start the Loop */
 while (have_posts()) :
     the_post();
-	
+
 ?>
 
     <div id="content">
@@ -29,21 +29,15 @@ while (have_posts()) :
         <div class="bg-secondary-subtle">
             <div class="container-lg py-lg-5 p-4 px-lg-5 bg-light-subtle">
                 <div id="schedule">
-                    <h2 class="mb-2">Schedule</h2>
+                    <h2 class="mb-2">L@WW 2025 Schedule</h2>
                     <p>Select a session to get more details about the event and register to attend. </p>
                     <p><strong>All times are shown for the Pacific Time Zone. </strong></p>
 
                     <?php get_template_part('template-parts/schedule') ?>
 
                 </div>
-                <div class="d-none d-md-flex gap-2 gap-lg-3 flex-no-wrap py-3 justify-content-center">
-                    <img alt="" src="https://learn.bcpublicservice.gov.bc.ca/latww/latww2024/img/values/integrity-round.png" height="90" width="90" style="max-width: 11vw; max-height: 11vw;" class="object-fit-contain rounded-circle shadow-sm">
-                    <img alt="" src="https://learn.bcpublicservice.gov.bc.ca/latww/latww2024/img/values/curiosity-round.png" height="90" width="90" style="max-width: 11vw; max-height: 11vw;" class="object-fit-contain rounded-circle shadow-sm">
-                    <img alt="" src="https://learn.bcpublicservice.gov.bc.ca/latww/latww2024/img/values/service-round.png" height="90" width="90" style="max-width: 11vw; max-height: 11vw;" class="object-fit-contain rounded-circle shadow-sm">
-                    <img alt="" src="https://learn.bcpublicservice.gov.bc.ca/latww/latww2024/img/values/passion-round.png" height="90" width="90" style="max-width: 11vw; max-height: 11vw;" class="object-fit-contain rounded-circle shadow-sm">
-                    <img alt="" src="https://learn.bcpublicservice.gov.bc.ca/latww/latww2024/img/values/teamwork-round.png" height="90" width="90" style="max-width: 11vw; max-height: 11vw;" class="object-fit-contain rounded-circle shadow-sm">
-                    <img alt="" src="https://learn.bcpublicservice.gov.bc.ca/latww/latww2024/img/values/accountability-round.png" height="90" width="90" style="max-width: 11vw; max-height: 11vw;" class="object-fit-contain rounded-circle shadow-sm">
-                    <img alt="" src="https://learn.bcpublicservice.gov.bc.ca/latww/latww2024/img/values/courage-round.png" height="90" width="90" style="max-width: 11vw; max-height: 11vw;" class="object-fit-contain rounded-circle shadow-sm">
+                <div class="d-md-flex d-none justify-content-center" style="height: 12rem;">
+                    <img src="https://learn.bcpublicservice.gov.bc.ca/latww/latww2025/img/latww-swoop.svg">
                 </div>
                 <div id="sessions" class="mt-lg-4">
                     <h2>Sessions</h2>
@@ -60,33 +54,33 @@ while (have_posts()) :
                                     <h5 class="text-dark-emphasis"><?= $start ?> to <?= $end ?></h5>
                                     <?php $shortDesc = get_post_meta($event->ID, 'shortDesc', TRUE) ?>
                                     <p><?= $shortDesc ?></p>
-									<?php 
-									$eventDateTime = get_post_meta($event->ID, 'eventDateTime', TRUE);
-									$iso8601_datetime = $eventDateTime;
-									// Create a new DateTime object from the ISO8601 string
-									$datetime = new DateTime($iso8601_datetime, new DateTimeZone('UTC'));
-									// Convert to the "America/Vancouver" timezone
-									$datetime->setTimezone(new DateTimeZone('America/Vancouver'));
-									// Get the current time in the "America/Vancouver" timezone
-									$current_time = new DateTime('now', new DateTimeZone('America/Vancouver'));
-									// Convert both DateTime objects to timestamps
-									$datetime_timestamp = $datetime->getTimestamp();
-									$current_timestamp = $current_time->getTimestamp();
-									?>
-									<?php if($current_timestamp < $datetime_timestamp): ?>
-									<?php if (!empty($registrationLink) && empty($sessionFull)): ?>
-										<?php $tt = get_the_title() ?>
-										<a href="<?= $registrationLink ?>" class="btn btn-primary">Register: <?= mb_strimwidth($tt, 0, 45, '...') ?></a>
-									<?php else: ?>
-										<?php if (!empty($sessionFull)): ?>
-											<div class="alert alert-secondary">This session is now full!</div>
-										<?php else: ?>
-											<div class="alert alert-secondary">Not open for registration yet.</div>
-										<?php endif ?>
-									<?php endif ?>
-									<?php else: ?>
-											<div class="alert alert-secondary">No longer open for registration.</div>
-									<?php endif ?>
+                                    <?php
+                                    $eventDateTime = get_post_meta($event->ID, 'eventDateTime', TRUE);
+                                    $iso8601_datetime = $eventDateTime;
+                                    // Create a new DateTime object from the ISO8601 string
+                                    $datetime = new DateTime($iso8601_datetime, new DateTimeZone('UTC'));
+                                    // Convert to the "America/Vancouver" timezone
+                                    $datetime->setTimezone(new DateTimeZone('America/Vancouver'));
+                                    // Get the current time in the "America/Vancouver" timezone
+                                    $current_time = new DateTime('now', new DateTimeZone('America/Vancouver'));
+                                    // Convert both DateTime objects to timestamps
+                                    $datetime_timestamp = $datetime->getTimestamp();
+                                    $current_timestamp = $current_time->getTimestamp();
+                                    ?>
+                                    <?php if ($current_timestamp < $datetime_timestamp): ?>
+                                        <?php if (!empty($registrationLink) && empty($sessionFull)): ?>
+                                            <?php $tt = get_the_title() ?>
+                                            <a href="<?= $registrationLink ?>" class="btn btn-primary">Register: <?= mb_strimwidth($tt, 0, 45, '...') ?></a>
+                                        <?php else: ?>
+                                            <?php if (!empty($sessionFull)): ?>
+                                                <div class="alert alert-secondary">This session is now full!</div>
+                                            <?php else: ?>
+                                                <div class="alert alert-secondary">Not open for registration yet.</div>
+                                            <?php endif ?>
+                                        <?php endif ?>
+                                    <?php else: ?>
+                                        <div class="alert alert-secondary">No longer open for registration.</div>
+                                    <?php endif ?>
 
                                 </div>
                             <?php endforeach ?>
@@ -108,33 +102,33 @@ while (have_posts()) :
                                     <h5 class="text-dark-emphasis"><?= $start ?> to <?= $end ?></h5>
                                     <?php $shortDesc = get_post_meta($event->ID, 'shortDesc', TRUE) ?>
                                     <p><?= $shortDesc ?></p>
-									<?php 
-									$eventDateTime = get_post_meta($event->ID, 'eventDateTime', TRUE);
-									$iso8601_datetime = $eventDateTime;
-									// Create a new DateTime object from the ISO8601 string
-									$datetime = new DateTime($iso8601_datetime, new DateTimeZone('UTC'));
-									// Convert to the "America/Vancouver" timezone
-									$datetime->setTimezone(new DateTimeZone('America/Vancouver'));
-									// Get the current time in the "America/Vancouver" timezone
-									$current_time = new DateTime('now', new DateTimeZone('America/Vancouver'));
-									// Convert both DateTime objects to timestamps
-									$datetime_timestamp = $datetime->getTimestamp();
-									$current_timestamp = $current_time->getTimestamp();
-									?>
-									<?php if($current_timestamp < $datetime_timestamp): ?>
-									<?php if (!empty($registrationLink) && empty($sessionFull)): ?>
-										<?php $tt = get_the_title() ?>
-										<a href="<?= $registrationLink ?>" class="btn btn-primary">Register: <?= mb_strimwidth($tt, 0, 45, '...') ?></a>
-									<?php else: ?>
-										<?php if (!empty($sessionFull)): ?>
-											<div class="alert alert-secondary">This session is now full!</div>
-										<?php else: ?>
-											<div class="alert alert-secondary">Not open for registration yet.</div>
-										<?php endif ?>
-									<?php endif ?>
-									<?php else: ?>
-											<div class="alert alert-secondary">No longer open for registration.</div>
-									<?php endif ?>
+                                    <?php
+                                    $eventDateTime = get_post_meta($event->ID, 'eventDateTime', TRUE);
+                                    $iso8601_datetime = $eventDateTime;
+                                    // Create a new DateTime object from the ISO8601 string
+                                    $datetime = new DateTime($iso8601_datetime, new DateTimeZone('UTC'));
+                                    // Convert to the "America/Vancouver" timezone
+                                    $datetime->setTimezone(new DateTimeZone('America/Vancouver'));
+                                    // Get the current time in the "America/Vancouver" timezone
+                                    $current_time = new DateTime('now', new DateTimeZone('America/Vancouver'));
+                                    // Convert both DateTime objects to timestamps
+                                    $datetime_timestamp = $datetime->getTimestamp();
+                                    $current_timestamp = $current_time->getTimestamp();
+                                    ?>
+                                    <?php if ($current_timestamp < $datetime_timestamp): ?>
+                                        <?php if (!empty($registrationLink) && empty($sessionFull)): ?>
+                                            <?php $tt = get_the_title() ?>
+                                            <a href="<?= $registrationLink ?>" class="btn btn-primary">Register: <?= mb_strimwidth($tt, 0, 45, '...') ?></a>
+                                        <?php else: ?>
+                                            <?php if (!empty($sessionFull)): ?>
+                                                <div class="alert alert-secondary">This session is now full!</div>
+                                            <?php else: ?>
+                                                <div class="alert alert-secondary">Not open for registration yet.</div>
+                                            <?php endif ?>
+                                        <?php endif ?>
+                                    <?php else: ?>
+                                        <div class="alert alert-secondary">No longer open for registration.</div>
+                                    <?php endif ?>
 
                                 </div>
                             <?php endforeach ?>
@@ -155,33 +149,33 @@ while (have_posts()) :
                                     <h5 class="text-dark-emphasis"><?= $start ?> to <?= $end ?></h5>
                                     <?php $shortDesc = get_post_meta($event->ID, 'shortDesc', TRUE) ?>
                                     <p><?= $shortDesc ?></p>
-									<?php 
-									$eventDateTime = get_post_meta($event->ID, 'eventDateTime', TRUE);
-									$iso8601_datetime = $eventDateTime;
-									// Create a new DateTime object from the ISO8601 string
-									$datetime = new DateTime($iso8601_datetime, new DateTimeZone('UTC'));
-									// Convert to the "America/Vancouver" timezone
-									$datetime->setTimezone(new DateTimeZone('America/Vancouver'));
-									// Get the current time in the "America/Vancouver" timezone
-									$current_time = new DateTime('now', new DateTimeZone('America/Vancouver'));
-									// Convert both DateTime objects to timestamps
-									$datetime_timestamp = $datetime->getTimestamp();
-									$current_timestamp = $current_time->getTimestamp();
-									?>
-									<?php if($current_timestamp < $datetime_timestamp): ?>
-									<?php if (!empty($registrationLink) && empty($sessionFull)): ?>
-										<?php $tt = get_the_title() ?>
-										<a href="<?= $registrationLink ?>" class="btn btn-primary">Register: <?= mb_strimwidth($tt, 0, 45, '...') ?></a>
-									<?php else: ?>
-										<?php if (!empty($sessionFull)): ?>
-											<div class="alert alert-secondary">This session is now full!</div>
-										<?php else: ?>
-											<div class="alert alert-secondary">Not open for registration yet.</div>
-										<?php endif ?>
-									<?php endif ?>
-									<?php else: ?>
-											<div class="alert alert-secondary">No longer open for registration.</div>
-									<?php endif ?>
+                                    <?php
+                                    $eventDateTime = get_post_meta($event->ID, 'eventDateTime', TRUE);
+                                    $iso8601_datetime = $eventDateTime;
+                                    // Create a new DateTime object from the ISO8601 string
+                                    $datetime = new DateTime($iso8601_datetime, new DateTimeZone('UTC'));
+                                    // Convert to the "America/Vancouver" timezone
+                                    $datetime->setTimezone(new DateTimeZone('America/Vancouver'));
+                                    // Get the current time in the "America/Vancouver" timezone
+                                    $current_time = new DateTime('now', new DateTimeZone('America/Vancouver'));
+                                    // Convert both DateTime objects to timestamps
+                                    $datetime_timestamp = $datetime->getTimestamp();
+                                    $current_timestamp = $current_time->getTimestamp();
+                                    ?>
+                                    <?php if ($current_timestamp < $datetime_timestamp): ?>
+                                        <?php if (!empty($registrationLink) && empty($sessionFull)): ?>
+                                            <?php $tt = get_the_title() ?>
+                                            <a href="<?= $registrationLink ?>" class="btn btn-primary">Register: <?= mb_strimwidth($tt, 0, 45, '...') ?></a>
+                                        <?php else: ?>
+                                            <?php if (!empty($sessionFull)): ?>
+                                                <div class="alert alert-secondary">This session is now full!</div>
+                                            <?php else: ?>
+                                                <div class="alert alert-secondary">Not open for registration yet.</div>
+                                            <?php endif ?>
+                                        <?php endif ?>
+                                    <?php else: ?>
+                                        <div class="alert alert-secondary">No longer open for registration.</div>
+                                    <?php endif ?>
 
                                 </div>
                             <?php endforeach ?>
@@ -202,33 +196,33 @@ while (have_posts()) :
                                     <h5 class="text-dark-emphasis"><?= $start ?> to <?= $end ?></h5>
                                     <?php $shortDesc = get_post_meta($event->ID, 'shortDesc', TRUE) ?>
                                     <p><?= $shortDesc ?></p>
-									<?php 
-									$eventDateTime = get_post_meta($event->ID, 'eventDateTime', TRUE);
-									$iso8601_datetime = $eventDateTime;
-									// Create a new DateTime object from the ISO8601 string
-									$datetime = new DateTime($iso8601_datetime, new DateTimeZone('UTC'));
-									// Convert to the "America/Vancouver" timezone
-									$datetime->setTimezone(new DateTimeZone('America/Vancouver'));
-									// Get the current time in the "America/Vancouver" timezone
-									$current_time = new DateTime('now', new DateTimeZone('America/Vancouver'));
-									// Convert both DateTime objects to timestamps
-									$datetime_timestamp = $datetime->getTimestamp();
-									$current_timestamp = $current_time->getTimestamp();
-									?>
-									<?php if($current_timestamp < $datetime_timestamp): ?>
-									<?php if (!empty($registrationLink) && empty($sessionFull)): ?>
-										<?php $tt = get_the_title() ?>
-										<a href="<?= $registrationLink ?>" class="btn btn-primary">Register: <?= mb_strimwidth($tt, 0, 45, '...') ?></a>
-									<?php else: ?>
-										<?php if (!empty($sessionFull)): ?>
-											<div class="alert alert-secondary">This session is now full!</div>
-										<?php else: ?>
-											<div class="alert alert-secondary">Not open for registration yet.</div>
-										<?php endif ?>
-									<?php endif ?>
-									<?php else: ?>
-											<div class="alert alert-secondary">No longer open for registration.</div>
-									<?php endif ?>
+                                    <?php
+                                    $eventDateTime = get_post_meta($event->ID, 'eventDateTime', TRUE);
+                                    $iso8601_datetime = $eventDateTime;
+                                    // Create a new DateTime object from the ISO8601 string
+                                    $datetime = new DateTime($iso8601_datetime, new DateTimeZone('UTC'));
+                                    // Convert to the "America/Vancouver" timezone
+                                    $datetime->setTimezone(new DateTimeZone('America/Vancouver'));
+                                    // Get the current time in the "America/Vancouver" timezone
+                                    $current_time = new DateTime('now', new DateTimeZone('America/Vancouver'));
+                                    // Convert both DateTime objects to timestamps
+                                    $datetime_timestamp = $datetime->getTimestamp();
+                                    $current_timestamp = $current_time->getTimestamp();
+                                    ?>
+                                    <?php if ($current_timestamp < $datetime_timestamp): ?>
+                                        <?php if (!empty($registrationLink) && empty($sessionFull)): ?>
+                                            <?php $tt = get_the_title() ?>
+                                            <a href="<?= $registrationLink ?>" class="btn btn-primary">Register: <?= mb_strimwidth($tt, 0, 45, '...') ?></a>
+                                        <?php else: ?>
+                                            <?php if (!empty($sessionFull)): ?>
+                                                <div class="alert alert-secondary">This session is now full!</div>
+                                            <?php else: ?>
+                                                <div class="alert alert-secondary">Not open for registration yet.</div>
+                                            <?php endif ?>
+                                        <?php endif ?>
+                                    <?php else: ?>
+                                        <div class="alert alert-secondary">No longer open for registration.</div>
+                                    <?php endif ?>
                                 </div>
                             <?php endforeach ?>
                         <?php else: ?>
@@ -248,33 +242,33 @@ while (have_posts()) :
                                     <h5 class="text-dark-emphasis"><?= $start ?> to <?= $end ?></h5>
                                     <?php $shortDesc = get_post_meta($event->ID, 'shortDesc', TRUE) ?>
                                     <p><?= $shortDesc ?></p>
-									<?php 
-									$eventDateTime = get_post_meta($event->ID, 'eventDateTime', TRUE);
-									$iso8601_datetime = $eventDateTime;
-									// Create a new DateTime object from the ISO8601 string
-									$datetime = new DateTime($iso8601_datetime, new DateTimeZone('UTC'));
-									// Convert to the "America/Vancouver" timezone
-									$datetime->setTimezone(new DateTimeZone('America/Vancouver'));
-									// Get the current time in the "America/Vancouver" timezone
-									$current_time = new DateTime('now', new DateTimeZone('America/Vancouver'));
-									// Convert both DateTime objects to timestamps
-									$datetime_timestamp = $datetime->getTimestamp();
-									$current_timestamp = $current_time->getTimestamp();
-									?>
-									<?php if($current_timestamp < $datetime_timestamp): ?>
-									<?php if (!empty($registrationLink) && empty($sessionFull)): ?>
-										<?php $tt = get_the_title() ?>
-										<a href="<?= $registrationLink ?>" class="btn btn-primary">Register: <?= mb_strimwidth($tt, 0, 45, '...') ?></a>
-									<?php else: ?>
-										<?php if (!empty($sessionFull)): ?>
-											<div class="alert alert-secondary">This session is now full!</div>
-										<?php else: ?>
-											<div class="alert alert-secondary">Not open for registration yet.</div>
-										<?php endif ?>
-									<?php endif ?>
-									<?php else: ?>
-											<div class="alert alert-secondary">No longer open for registration.</div>
-									<?php endif ?>
+                                    <?php
+                                    $eventDateTime = get_post_meta($event->ID, 'eventDateTime', TRUE);
+                                    $iso8601_datetime = $eventDateTime;
+                                    // Create a new DateTime object from the ISO8601 string
+                                    $datetime = new DateTime($iso8601_datetime, new DateTimeZone('UTC'));
+                                    // Convert to the "America/Vancouver" timezone
+                                    $datetime->setTimezone(new DateTimeZone('America/Vancouver'));
+                                    // Get the current time in the "America/Vancouver" timezone
+                                    $current_time = new DateTime('now', new DateTimeZone('America/Vancouver'));
+                                    // Convert both DateTime objects to timestamps
+                                    $datetime_timestamp = $datetime->getTimestamp();
+                                    $current_timestamp = $current_time->getTimestamp();
+                                    ?>
+                                    <?php if ($current_timestamp < $datetime_timestamp): ?>
+                                        <?php if (!empty($registrationLink) && empty($sessionFull)): ?>
+                                            <?php $tt = get_the_title() ?>
+                                            <a href="<?= $registrationLink ?>" class="btn btn-primary">Register: <?= mb_strimwidth($tt, 0, 45, '...') ?></a>
+                                        <?php else: ?>
+                                            <?php if (!empty($sessionFull)): ?>
+                                                <div class="alert alert-secondary">This session is now full!</div>
+                                            <?php else: ?>
+                                                <div class="alert alert-secondary">Not open for registration yet.</div>
+                                            <?php endif ?>
+                                        <?php endif ?>
+                                    <?php else: ?>
+                                        <div class="alert alert-secondary">No longer open for registration.</div>
+                                    <?php endif ?>
 
                                 </div>
                             <?php endforeach ?>

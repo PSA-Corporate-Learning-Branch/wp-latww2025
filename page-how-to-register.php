@@ -23,17 +23,16 @@ while (have_posts()) :
         <div class="bg-secondary-subtle">
             <div class="container-lg p-lg-5 p-4 bg-light-subtle">
                 <h2>Registration tips</h2>
-                
-                <ul>
+                                <ul>
                     <li>The L@WW website provides direct links to register for each session in the learning system. You do not need formal approval from your supervisor to register for most sessions. Fierce Foundations does require supervisor approval.</li>
-                    <li>All sessions are fully virtual, taking place on MS Teams or Zoom.</li>
+                    <li>All sessions are fully virtual, taking place on MS Teams.</li>
                     <li>If you are unable to attend a session, please drop the course in the learning system as soon as possible. This allows another employee to participate in the learning.</li>
-                    <li>Registration closes the morning of the session day. Registration for Fierce Foundations closes 2 days before the session.</li>
+                    <li>Registration closes at the end of each session so you can join at the last minute if there is space in the session.</li>
                 </ul>
                 <h3>Accessibility</h3>
                 <p>All sessions include ASL interpretation and CART services.</p>
                 <!-- <a href="https://www.streamtext.net/player?event=bcpsa" target="_blank" class="btn btn-primary">Access CART services with Streamtext</a> -->
-                <p>If you need any accommodations to participate in L@WW, please <a href="https://sfs7.gov.bc.ca/affwebservices/public/saml2sso?SPID=urn:ca:bc:gov:customerportal:prod">submit an AskMyHR service request</a> using the category "Learning Centre" as soon as possible.</p>
+                <p>If you need any accommodations to participate in L@WW, please <a href="https://sfs7.gov.bc.ca/affwebservices/public/saml2sso?SPID=urn:ca:bc:gov:customerportal:prod">submit an AskMyHR service request</a> using the category "Corporate Learning" as soon as possible.</p>
                 <div class="card card-body mt-5">
                     <h2>Adding a Class to your Outlook Calendar</h2>
                     <p>The following instructions will show you how to import a class into your Outlook calendar. For general instructions on using the Learning System, please visit the <a href="https://learningcentre.gww.gov.bc.ca/learning-system-help/" target="_blank" class="link-text">Learning System Help</a> page. </p>

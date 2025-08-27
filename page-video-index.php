@@ -12,7 +12,7 @@ date_default_timezone_set('America/Vancouver');
     <div class="d-flex p-4 p-md-5 align-items-center bg-gov-blue bg-gradient" style="min-height: 100px;">
         <div class="container-lg">
             <h1 class="text-white">Session Recordings</h1>
-            <h2 class="text-white h3">Learn @ Work Week 2024 Video Archive</h2>
+            <h2 class="text-white h3">Learn @ Work Week 2025 Video Archive</h2>
         </div>
     </div>
     
@@ -113,9 +113,9 @@ date_default_timezone_set('America/Vancouver');
                 <?php endforeach; ?>
             </div>
         <?php else: ?>
-            <div class="alert alert-info" role="alert">
-                <h4 class="alert-heading">No Video Recordings Available</h4>
-                <p>Session recordings will be posted here after Learn @ Work Week. Please check back later.</p>
+            <div class="alert alert-info mb-0" role="alert">
+                <h3 class="alert-heading">No Video Recordings Available</h3>
+                <p class="mb-0">Session recordings will be posted here after Learn @ Work Week. Please check back later.</p>
             </div>
         <?php endif; ?>
     </div>
