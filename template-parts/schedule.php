@@ -5,7 +5,7 @@
         <h4 class="card-subtitle text-body-secondary mb-2 h5">October 27</h4>
         <div class="d-flex flex-column">
 
-            <?php $monday = get_children(array('post_type' => 'page', 'post_parent' => 8, 'orderby' => 'menu_order', 'order' => 'ASC')) ?>
+            <?php $monday = get_children(array('post_type' => 'page', 'post_parent' => 15, 'orderby' => 'menu_order', 'order' => 'ASC')) ?>
             <?php if (!empty($monday)) : ?>
                 <?php foreach ($monday as $event) : ?>
                     <div class="card mb-2">

@@ -49,8 +49,8 @@
     <!-- Keynote promo -->
     <div class="container-lg p-4 p-md-5">
         <div class="row">
-            <div class="col-md-8">
-                <?php $keynote = get_page(16) ?>
+            <div class="col-lg-8">
+                <?php $keynote = get_page(293) ?>
                 <?php
                 $eventDateTime = get_post_meta($keynote->ID, 'eventDateTime', TRUE);
                 $iso8601_datetime = $eventDateTime;
@@ -64,9 +64,7 @@
                 $datetime_timestamp = $datetime->getTimestamp();
                 $current_timestamp = $current_time->getTimestamp();
                 ?>
-
                 <h3><a class="text-decoration-none" href="/latww2025/monday/<?= $keynote->post_name ?>"><?= $keynote->post_title ?></a></h3>
-                <h4 class="text-secondary-emphasis">Speaker: <?= $keynote->speakerOne ?>, <?= $keynote->speakerOneTitle ?></h4>
                 <p><?= $keynote->shortDesc ?></p>
                 <?php if ($current_timestamp < $datetime_timestamp): ?>
                     <?php if (!empty($keynote->registrationLink) && empty($keynote->sessionFull)): ?>
@@ -83,21 +81,14 @@
                     <div class="alert alert-secondary">No longer open for registration.</div>
                 <?php endif ?>
             </div>
-            <div class="col-md-4">
-                <div class="d-flex justify-content-center align-items-center">
-                    <img src="<?= $keynote->speakerOneImg ?>" height="300" width="300" class="rounded-circle shadow-sm mb-3" alt="<?= $keynote->speakerOne ?>" style="max-width: 20vw;">
+            <div class="col-lg-4">
+                <div class="card shadow-sm rounded">
+                    <div class="card-body fs-6">
+                        <h3 class="card-title fs-4">Daily Newsletter</h3>
+                        <p class="card-text">Receive daily updates highlighting the L@WW sessions of the day, along with relevant resources to help reinforce your learning or catch up on sessions you may have missed.</p>
+                                        <a href="https://submit.digital.gov.bc.ca/app/form/submit?f=fd03b54b-84aa-4a05-b5ff-c5536b733f57" class="btn btn-primary">Subscribe to the newsletter</a>
+                    </div>
                 </div>
-                <?php if (!empty($keynote->speakerOneQuote)): ?>
-                    <figure>
-                        <blockquote class="blockquote">
-                            <p><?= $keynote->speakerOneQuote ?></p>
-                        </blockquote>
-                        <figcaption class="blockquote-footer text-center">
-                            <?= $keynote->speakerOne ?><br>
-                            <cite title="Source Title"><?= $keynote->speakerOneQuoteSource ?></cite>
-                        </figcaption>
-                    </figure>
-                <?php endif ?>
             </div>
         </div>
     </div>
