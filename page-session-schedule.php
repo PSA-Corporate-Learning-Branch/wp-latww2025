@@ -27,8 +27,8 @@ while (have_posts()) :
             </div>
         </div>
         <div class="bg-secondary-subtle">
-            <div class="container-lg py-lg-5 p-4 px-lg-5 bg-light-subtle">
-                <div id="schedule" class="row my-md-5">
+            <div id="schedule" class="container-lg py-lg-5 p-4 px-lg-5 bg-light-subtle">
+                <div class="row my-md-5">
                     <div class="col-lg-8 mb-4 mb-lg-0">
                         <h2 class="mb-2">L@WW 2025 Schedule</h2>
                         <p>Select a session to get more details about the event and register to attend. </p>
@@ -46,9 +46,7 @@ while (have_posts()) :
                     </div>
                 </div>
                 <?php get_template_part('template-parts/schedule') ?>
-
-            </div>
-            <div class="d-md-flex d-none justify-content-center" style="height: 12rem;">
+                <div class="d-md-flex d-none justify-content-center" style="height: 12rem;">
                 <img src="https://learn.bcpublicservice.gov.bc.ca/latww/latww2025/img/latww-swoop.svg">
             </div>
             <div id="sessions" class="mt-lg-4">
