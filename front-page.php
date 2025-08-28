@@ -26,12 +26,19 @@
             </div>
             <!-- Sidebar Section -->
             <div class="col-lg-4">
-                <div class="card shadow-sm rounded">
+                <div class="card shadow-sm rounded mb-3">
                     <div class="card-body fs-6">
                         <h3 class="card-title fs-4">Accessibility</h3>
                         <p class="card-text">All sessions include ASL interpretation and CART services.</p>
                         <!-- <a href="https://www.streamtext.net/player?event=bcpsa" target="_blank" class="btn btn-primary mb-3">Access CART services with Streamtext</a> -->
                         <p class="card-text">If you need any accommodations to participate in L@WW, please <a href="https://sfs7.gov.bc.ca/affwebservices/public/saml2sso?SPID=urn:ca:bc:gov:customerportal:prod">submit an AskMyHR service request</a> using the category "Corporate Learning".</p>
+                    </div>
+                </div>
+                <div class="card shadow-sm rounded">
+                    <div class="card-body fs-6">
+                        <h3 class="card-title fs-4">Daily Newsletter</h3>
+                        <p class="card-text">Receive daily updates highlighting the L@WW sessions of the day, along with relevant resources to help reinforce your learning or catch up on sessions you may have missed.</p>
+                                        <a href="https://submit.digital.gov.bc.ca/app/form/submit?f=fd03b54b-84aa-4a05-b5ff-c5536b733f57" class="btn btn-primary">Subscribe to the newsletter</a>
                     </div>
                 </div>
             </div>
@@ -82,12 +89,8 @@
                 <?php endif ?>
             </div>
             <div class="col-lg-4">
-                <div class="card shadow-sm rounded">
-                    <div class="card-body fs-6">
-                        <h3 class="card-title fs-4">Daily Newsletter</h3>
-                        <p class="card-text">Receive daily updates highlighting the L@WW sessions of the day, along with relevant resources to help reinforce your learning or catch up on sessions you may have missed.</p>
-                                        <a href="https://submit.digital.gov.bc.ca/app/form/submit?f=fd03b54b-84aa-4a05-b5ff-c5536b733f57" class="btn btn-primary">Subscribe to the newsletter</a>
-                    </div>
+                <div class="d-flex justify-content-center" style="height: 12rem;">
+                    <img src="https://learn.bcpublicservice.gov.bc.ca/latww/latww2025/img/latww-swoop.svg">
                 </div>
             </div>
         </div>
