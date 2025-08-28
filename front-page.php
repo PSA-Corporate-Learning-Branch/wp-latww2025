@@ -38,7 +38,7 @@
                     <div class="card-body fs-6">
                         <h3 class="card-title fs-4">Daily Newsletter</h3>
                         <p class="card-text">Receive daily updates highlighting the L@WW sessions of the day, along with relevant resources to help reinforce your learning or catch up on sessions you may have missed.</p>
-                                        <a href="https://submit.digital.gov.bc.ca/app/form/submit?f=fd03b54b-84aa-4a05-b5ff-c5536b733f57" class="btn btn-primary">Subscribe to the newsletter</a>
+                        <a href="https://submit.digital.gov.bc.ca/app/form/submit?f=fd03b54b-84aa-4a05-b5ff-c5536b733f57" class="btn btn-primary">Subscribe to the newsletter</a>
                     </div>
                 </div>
             </div>
