@@ -58,7 +58,7 @@ while (have_posts()) :
             </div>
         </div>
         <div class="bg-secondary-subtle">
-            <div class="container-lg py-md-5 py-4 ps-3 pe-4 pe-md-5 bg-light-subtle">
+            <div class="container-lg p-md-5 p-4 bg-light-subtle">
 
                 <div id="main">
                     <div class="row">
