@@ -99,7 +99,7 @@
     <a class="skip-link screen-reader-text" href="#content">
         Skip to content </a>
     <header id="mainheader" role="banner" class="sticky-top">
-        <nav class="navbar navbar-expand-lg px-3 bg-gov-purple" data-bs-theme="dark" aria-label="<?php esc_attr_e('Primary menu', 'wp-learninghub'); ?>">
+        <nav class="navbar navbar-expand-xl px-3 bg-gov-purple" data-bs-theme="dark" aria-label="<?php esc_attr_e('Primary menu', 'wp-learninghub'); ?>">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon text-white"></span>
@@ -109,9 +109,6 @@
                     ?>
                     L@WW 2025
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSearch" aria-controls="navbarSearch" aria-expanded="false" aria-label="Toggle search">
-                    <span class="search-toggler-icon"></span>
-                </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mb-2 mb-lg-0 order-1 order-lg-2">
                         <li class="nav-item">
