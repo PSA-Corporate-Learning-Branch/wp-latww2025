@@ -161,7 +161,7 @@ while (have_posts()) :
 
                         if (!empty($child_pages)):
                         ?>
-                            <h2>Speakers</h2>
+                            <h3>Speakers</h3>
                             <div class="d-flex mt-3 justify-content-start flex-wrap">
                                 <?php foreach ($child_pages as $child_page): ?>
                                     <?php
@@ -176,7 +176,7 @@ while (have_posts()) :
                                             <img src="<?= esc_url($speakerImg) ?>" height="250" width="250" class="rounded-circle object-fit-contain shadow-sm mb-3" alt="">
                                         <?php endif; ?>
                                         <h4 class="mb-0 fw-bold"><?= esc_html($speakerName) ?></h4><?php if (!empty($speakerRole)): ?>
-                                            <h5 class="text-black"><?= esc_html($speakerRole) ?></h5>
+                                            <h5 class="text-dark-emphasis"><?= esc_html($speakerRole) ?></h5>
                                         <?php endif; ?>
                                         <?php if (!empty($speakerTitle)): ?>
                                             <p class="fs-6 small lh-sm"><small><?= esc_html($speakerTitle) ?></small></p>
