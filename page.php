@@ -107,7 +107,7 @@ while (have_posts()) :
                         <!-- At a glance and materials -->
                         <div class="col-lg-4">
                             <div class="d-lg-flex d-none justify-content-end">
-                                <img src="https://learn.bcpublicservice.gov.bc.ca/latww/latww2025/img/latww-swoop.svg" style="margin: -100px 0 -24px -50px; height: 10rem; z-index: 1;">
+                                <img src="https://learn.bcpublicservice.gov.bc.ca/latww/latww2025/img/latww-swoop.svg" style="margin: -100px 0 -24px -50px; height: 10rem; z-index: 1;" alt="">
                             </div>
                             <div class="card bg-dark-subtle mb-4">
                                 <div class="card-body">
