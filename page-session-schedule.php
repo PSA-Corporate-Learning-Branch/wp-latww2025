@@ -76,6 +76,7 @@ while (have_posts()) :
                                 // Convert both DateTime objects to timestamps
                                 $datetime_timestamp = $datetime->getTimestamp();
                                 $current_timestamp = $current_time->getTimestamp();
+								$registrationLink = get_post_meta($event->ID, 'registrationLink', TRUE);
                                 ?>
                                 <?php if ($current_timestamp < $datetime_timestamp): ?>
                                     <?php if (!empty($registrationLink) && empty($sessionFull)): ?>
@@ -124,6 +125,7 @@ while (have_posts()) :
                                 // Convert both DateTime objects to timestamps
                                 $datetime_timestamp = $datetime->getTimestamp();
                                 $current_timestamp = $current_time->getTimestamp();
+								$registrationLink = get_post_meta($event->ID, 'registrationLink', TRUE);
                                 ?>
                                 <?php if ($current_timestamp < $datetime_timestamp): ?>
                                     <?php if (!empty($registrationLink) && empty($sessionFull)): ?>
@@ -171,6 +173,7 @@ while (have_posts()) :
                                 // Convert both DateTime objects to timestamps
                                 $datetime_timestamp = $datetime->getTimestamp();
                                 $current_timestamp = $current_time->getTimestamp();
+								$registrationLink = get_post_meta($event->ID, 'registrationLink', TRUE);
                                 ?>
                                 <?php if ($current_timestamp < $datetime_timestamp): ?>
                                     <?php if (!empty($registrationLink) && empty($sessionFull)): ?>
@@ -218,6 +221,7 @@ while (have_posts()) :
                                 // Convert both DateTime objects to timestamps
                                 $datetime_timestamp = $datetime->getTimestamp();
                                 $current_timestamp = $current_time->getTimestamp();
+								$registrationLink = get_post_meta($event->ID, 'registrationLink', TRUE);
                                 ?>
                                 <?php if ($current_timestamp < $datetime_timestamp): ?>
                                     <?php if (!empty($registrationLink) && empty($sessionFull)): ?>
@@ -264,6 +268,7 @@ while (have_posts()) :
                                 // Convert both DateTime objects to timestamps
                                 $datetime_timestamp = $datetime->getTimestamp();
                                 $current_timestamp = $current_time->getTimestamp();
+								$registrationLink = get_post_meta($event->ID, 'registrationLink', TRUE);
                                 ?>
                                 <?php if ($current_timestamp < $datetime_timestamp): ?>
                                     <?php if (!empty($registrationLink) && empty($sessionFull)): ?>
