@@ -78,8 +78,11 @@ while (have_posts()) :
                                 $current_timestamp = $current_time->getTimestamp();
                                 ?>
                                 <?php if ($current_timestamp < $datetime_timestamp): ?>
+                                   <?php
+    $registrationLink = get_post_meta($event->ID, 'registrationLink', TRUE); ?>
                                     <?php if (!empty($registrationLink) && empty($sessionFull)): ?>
                                         <?php $tt = get_the_title() ?>
+                                    <?php 
                                         <a href="<?= $registrationLink ?>" class="btn btn-primary">Register: <?= mb_strimwidth($tt, 0, 45, '...') ?></a>
                                     <?php else: ?>
                                         <?php if (!empty($sessionFull)): ?>
@@ -126,6 +129,8 @@ while (have_posts()) :
                                 $current_timestamp = $current_time->getTimestamp();
                                 ?>
                                 <?php if ($current_timestamp < $datetime_timestamp): ?>
+                                     <?php
+    $registrationLink = get_post_meta($event->ID, 'registrationLink', TRUE); ?>
                                     <?php if (!empty($registrationLink) && empty($sessionFull)): ?>
                                         <?php $tt = get_the_title() ?>
                                         <a href="<?= $registrationLink ?>" class="btn btn-primary">Register: <?= mb_strimwidth($tt, 0, 45, '...') ?></a>
@@ -173,6 +178,8 @@ while (have_posts()) :
                                 $current_timestamp = $current_time->getTimestamp();
                                 ?>
                                 <?php if ($current_timestamp < $datetime_timestamp): ?>
+                                     <?php
+    $registrationLink = get_post_meta($event->ID, 'registrationLink', TRUE); ?>
                                     <?php if (!empty($registrationLink) && empty($sessionFull)): ?>
                                         <?php $tt = get_the_title() ?>
                                         <a href="<?= $registrationLink ?>" class="btn btn-primary">Register: <?= mb_strimwidth($tt, 0, 45, '...') ?></a>
@@ -220,6 +227,8 @@ while (have_posts()) :
                                 $current_timestamp = $current_time->getTimestamp();
                                 ?>
                                 <?php if ($current_timestamp < $datetime_timestamp): ?>
+                                     <?php
+    $registrationLink = get_post_meta($event->ID, 'registrationLink', TRUE); ?>
                                     <?php if (!empty($registrationLink) && empty($sessionFull)): ?>
                                         <?php $tt = get_the_title() ?>
                                         <a href="<?= $registrationLink ?>" class="btn btn-primary">Register: <?= mb_strimwidth($tt, 0, 45, '...') ?></a>
@@ -266,6 +275,8 @@ while (have_posts()) :
                                 $current_timestamp = $current_time->getTimestamp();
                                 ?>
                                 <?php if ($current_timestamp < $datetime_timestamp): ?>
+                                     <?php
+    $registrationLink = get_post_meta($event->ID, 'registrationLink', TRUE); ?>
                                     <?php if (!empty($registrationLink) && empty($sessionFull)): ?>
                                         <?php $tt = get_the_title() ?>
                                         <a href="<?= $registrationLink ?>" class="btn btn-primary">Register: <?= mb_strimwidth($tt, 0, 45, '...') ?></a>
