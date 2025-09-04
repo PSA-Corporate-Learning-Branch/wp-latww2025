@@ -75,7 +75,7 @@
                 <p><?= $keynote->shortDesc ?></p>
                 <?php if ($current_timestamp < $datetime_timestamp): ?>
                     <?php if (!empty($keynote->registrationLink) && empty($keynote->sessionFull)): ?>
-                        <?php $tt = get_the_title() ?>
+                        <?php $tt = $keynote->post_title ?>
                         <a href="<?= $keynote->registrationLink ?>" class="btn btn-primary">Register: <?= mb_strimwidth($tt, 0, 45, '...') ?></a>
                     <?php else: ?>
                         <?php if (!empty($keynote->sessionFull)): ?>
