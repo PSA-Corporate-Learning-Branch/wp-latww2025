@@ -78,8 +78,7 @@ while (have_posts()) :
                                 $current_timestamp = $current_time->getTimestamp();
                                 ?>
                                 <?php if ($current_timestamp < $datetime_timestamp): ?>
-                                   <?php
-    $registrationLink = get_post_meta($event->ID, 'registrationLink', TRUE); ?>
+                                 
                                     <?php if (!empty($registrationLink) && empty($sessionFull)): ?>
                                         <?php $tt = get_the_title() ?>
                                     <?php 
@@ -103,7 +102,7 @@ while (have_posts()) :
 
                 </div>
                 <h3 class="text-bg-secondary rounded p-2 mt-4">Tuesday</h3>
-                <div class="row row-cols-1 row-cols-md-2 mt-3">
+                <div class="row mx-0 row-cols-1 row-cols-md-2 mt-3">
                     <?php $tuesday = get_children(array('post_type' => 'page', 'post_parent' => 17, 'orderby' => 'menu_order', 'order' => 'ASC')) ?>
                     <?php if (!empty($tuesday)) : ?>
                         <?php foreach ($tuesday as $event) : ?>
@@ -129,8 +128,6 @@ while (have_posts()) :
                                 $current_timestamp = $current_time->getTimestamp();
                                 ?>
                                 <?php if ($current_timestamp < $datetime_timestamp): ?>
-                                     <?php
-    $registrationLink = get_post_meta($event->ID, 'registrationLink', TRUE); ?>
                                     <?php if (!empty($registrationLink) && empty($sessionFull)): ?>
                                         <?php $tt = get_the_title() ?>
                                         <a href="<?= $registrationLink ?>" class="btn btn-primary">Register: <?= mb_strimwidth($tt, 0, 45, '...') ?></a>
@@ -152,7 +149,7 @@ while (have_posts()) :
                     <?php endif ?>
                 </div>
                 <h3 class="text-bg-secondary rounded p-2 mt-4">Wednesday</h3>
-                <div class="row row-cols-1 row-cols-md-2 mt-3">
+                <div class="row mx-0 row-cols-1 row-cols-md-2 mt-3">
                     <?php $wednesday = get_children(array('post_type' => 'page', 'post_parent' => 19, 'orderby' => 'menu_order', 'order' => 'ASC')) ?>
                     <?php if (!empty($wednesday)) : ?>
                         <?php foreach ($wednesday as $event) : ?>
@@ -177,9 +174,7 @@ while (have_posts()) :
                                 $datetime_timestamp = $datetime->getTimestamp();
                                 $current_timestamp = $current_time->getTimestamp();
                                 ?>
-                                <?php if ($current_timestamp < $datetime_timestamp): ?>
-                                     <?php
-    $registrationLink = get_post_meta($event->ID, 'registrationLink', TRUE); ?>
+                                <?php if ($current_timestamp < $datetime_timestamp): ?>                                     
                                     <?php if (!empty($registrationLink) && empty($sessionFull)): ?>
                                         <?php $tt = get_the_title() ?>
                                         <a href="<?= $registrationLink ?>" class="btn btn-primary">Register: <?= mb_strimwidth($tt, 0, 45, '...') ?></a>
@@ -201,7 +196,7 @@ while (have_posts()) :
                     <?php endif ?>
                 </div>
                 <h3 class="text-bg-secondary rounded p-2 mt-4">Thursday</h3>
-                <div class="row row-cols-1 row-cols-md-2 mt-3">
+                <div class="row mx-0 row-cols-1 row-cols-md-2 mt-3">
                     <?php $thursday = get_children(array('post_type' => 'page', 'post_parent' => 21, 'orderby' => 'menu_order', 'order' => 'ASC')) ?>
                     <?php if (!empty($thursday)) : ?>
                         <?php foreach ($thursday as $event) : ?>
@@ -226,9 +221,7 @@ while (have_posts()) :
                                 $datetime_timestamp = $datetime->getTimestamp();
                                 $current_timestamp = $current_time->getTimestamp();
                                 ?>
-                                <?php if ($current_timestamp < $datetime_timestamp): ?>
-                                     <?php
-    $registrationLink = get_post_meta($event->ID, 'registrationLink', TRUE); ?>
+                                <?php if ($current_timestamp < $datetime_timestamp): ?>                                    
                                     <?php if (!empty($registrationLink) && empty($sessionFull)): ?>
                                         <?php $tt = get_the_title() ?>
                                         <a href="<?= $registrationLink ?>" class="btn btn-primary">Register: <?= mb_strimwidth($tt, 0, 45, '...') ?></a>
@@ -249,7 +242,7 @@ while (have_posts()) :
                     <?php endif ?>
                 </div>
                 <h3 class="text-bg-secondary rounded p-2 mt-4">Friday</h3>
-                <div class="row row-cols-1 row-cols-md-2 mt-3">
+                <div class="row mx-0 row-cols-1 row-cols-md-2 mt-3">
                     <?php $friday = get_children(array('post_type' => 'page', 'post_parent' => 23, 'orderby' => 'menu_order', 'order' => 'ASC')) ?>
                     <?php if (!empty($friday)) : ?>
                         <?php foreach ($friday as $event) : ?>
@@ -275,8 +268,6 @@ while (have_posts()) :
                                 $current_timestamp = $current_time->getTimestamp();
                                 ?>
                                 <?php if ($current_timestamp < $datetime_timestamp): ?>
-                                     <?php
-    $registrationLink = get_post_meta($event->ID, 'registrationLink', TRUE); ?>
                                     <?php if (!empty($registrationLink) && empty($sessionFull)): ?>
                                         <?php $tt = get_the_title() ?>
                                         <a href="<?= $registrationLink ?>" class="btn btn-primary">Register: <?= mb_strimwidth($tt, 0, 45, '...') ?></a>
