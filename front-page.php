@@ -6,9 +6,18 @@
             <h1 class="visually-hidden">Your Career Journey: Upskilling at Every Stage</h1>
         </div>
     </div>
-    <h2 class="mb-0 p-3 text-center text-white" style="background-color: #2f3442;">Learn @ Work Week: October 27 to 31, 2025</h2>
+    <h2 class="mb-0 p-3 text-center text-white" style="background-color: #2f3442;">Learn @ Work Week: February 2026</h2>
     <!-- Main Content Section -->
     <div class="container-lg px-4 px-md-5">
+        <div class="bg-secondary-subtle card my-3 rounded shadow-sm">
+                    <div class="card-body fs-6">
+                        <h3 class="card-title fs-4">Learn @ Work Week Postponement</h3>
+                        <p class="card-text">L@WW, originally scheduled for October 27 to 31, has been postponed to February 2026. Exact dates will be confirmed shortly.</p>
+                        <p class="card-text">We’ve seen strong interest in L@WW, and we remain committed to delivering a meaningful and accessible learning experience for BC Public Service employees. We’re taking this time to adjust the timing and approach to ensure the event meets your needs. If you were previously registered, you’ll be given the first opportunity to re-register once the event is rescheduled.</p>
+                        <p class="card-text">We encourage you to continue exploring opportunities to grow your skills and reflect on your career journey in ways that work for you at this time. Thank you for your understanding. </p>
+                        <p class="card-text">Watch for communications with updated dates and details. We look forward to seeing you at L@WW in February! </p>
+                     </div>
+                </div>
         <div class="row my-md-5">
             <!-- Main Content -->
             <div class="col-lg-8 mb-4 mb-lg-0">
