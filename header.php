@@ -164,4 +164,6 @@
 
             </div>
         </nav>
+        <div class="alert alert-warning my-3" role="alert">L@WW, originally scheduled for October 27 to 31, has been postponed to February 2026. Exact dates will be confirmed shortly.
+</div>
     </header><!-- #masthead -->
