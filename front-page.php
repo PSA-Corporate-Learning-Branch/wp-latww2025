@@ -1,12 +1,6 @@
 <?php get_header() ?>
 <div id="content">
-    <!-- Banner Section -->
-    <div class="banner-container">
-        <div class="banner-image">
-            <h1 class="visually-hidden">Your Time to Learn</h1>
-        </div>
-    </div>
-    <h2 class="mb-0 p-3 text-center text-white" style="background-color: #2f3442;">Learn @ Work Week: February 2 to 6, 2026</h2>
+    <h1 class="mb-0 p-3 text-center text-white" style="background-color: #2f3442;">Learn @ Work Week: Your Time to Learn | February 2 to 6, 2026</h2>
     <!-- Main Content Section -->
     <div class="container-lg px-4 px-md-5">
         <div class="bg-secondary-subtle card my-3 rounded shadow-sm">
