@@ -2,7 +2,7 @@
 <div id="content">
     <!-- Banner Section -->
     <div class="banner-container">
-        <div class="bg-blue">
+        <div class="banner-image">
             <h1 class="visually-hidden">Your Time to Learn</h1>
         </div>
     </div>
