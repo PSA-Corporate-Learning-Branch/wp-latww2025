@@ -164,6 +164,5 @@
 
             </div>
         </nav>
-        <div class="alert alert-warning my-3 text-center" role="alert">L@WW, originally scheduled for October 27 to 31, has been postponed to February 2026. Exact dates will be confirmed shortly.
-</div>
+        <div class="alert alert-warning my-3 text-center" role="alert"><strong>L@WW: Your Time to Learn</strong> will run from February 2 to 6, 2026. More details coming soon.</div>
     </header><!-- #masthead -->
