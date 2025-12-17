@@ -114,7 +114,7 @@
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="/latww2025/">Home</a>
                         </li>
-                        <li class="nav-item">
+                       <!-- <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="/latww2025/session-schedule/">Session Schedule</a>
                         </li>
                         <li class="nav-item">
@@ -125,7 +125,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="/latww2025/video-index/">Session Recordings</a>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link" href="/learn-at-work-week/" target="_blank" rel="noopener noreferrer">L@WW Event Archive<i class="bi bi-box-arrow-up-right ms-2" aria-hidden="true"></i><span class="visually-hidden"> (opens a new window)</span></a>
                         </li>
