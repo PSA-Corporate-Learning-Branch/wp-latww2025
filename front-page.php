@@ -18,8 +18,8 @@
                 <h3>Theme: Your Time to Learn</h3>
                 <p>This special edition of L@WW is designed to give you flexibility and choice. L@WW: Your Time to Learn encourages you to set aside time during the week to explore courses from the corporate learning catalogue. You'll find learning playlists featuring recommended courses, micro-learning and learning pathways.</p>
                 <p>Two live virtual sessions will provide a chance to get learning support from the Corporate Learning Branch. Drop in for an hour of demos, practical tips, and answers to your questions about corporate learning.</p>
-                <a href="https://submit.digital.gov.bc.ca/app/form/submit?f=fd03b54b-84aa-4a05-b5ff-c5536b733f57" class="btn btn-primary">Check out the five playlists</a>
-                <a href="https://submit.digital.gov.bc.ca/app/form/submit?f=fd03b54b-84aa-4a05-b5ff-c5536b733f57" class="btn btn-primary">Register for a live session</a>
+                <a href="/latww2025/playlists/" class="btn btn-primary">Check out the five playlists</a>
+                <a href="/latww2025/session-schedule/" class="btn btn-primary">Register for a live session</a>
 
 
             </div>
