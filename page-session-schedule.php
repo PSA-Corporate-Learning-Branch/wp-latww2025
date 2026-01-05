@@ -53,7 +53,7 @@ while (have_posts()) :
                                     <li><strong>End time:</strong> 11 a.m.</li>
                                     <li><strong>Platform:</strong> Microsoft Teams</li>
                                 </ul>
-                                <a href="#" class="btn btn-primary">Register for the Tuesday session</a>
+                                <!-- <a href="#" class="btn btn-primary">Register for the Tuesday session</a> -->
                             </div>
                             <div class="col">
                                 <h4>Thursday session</h4>
@@ -63,7 +63,7 @@ while (have_posts()) :
                                     <li><strong>End time:</strong> 2:30 p.m.</li>
                                     <li><strong>Platform:</strong> Microsoft Teams</li>
                                 </ul>
-                                <a href="#" class="btn btn-primary">Register for the Thursday session</a>
+                                <!-- <a href="#" class="btn btn-primary">Register for the Thursday session</a> -->
                             </div>
                         </div>
                         <p class="small text-muted text-center mt-5">All times shown in the Pacific Time Zone.</p>
