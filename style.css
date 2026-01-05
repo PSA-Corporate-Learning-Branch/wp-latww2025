@@ -135,8 +135,7 @@
     padding: 1rem;
 }
 [data-bs-theme=dark] .banner-image {
-    background-color: var(--gov-primary-blue);
-    background-position: center;
+        background-image: url(https://learn.bcpublicservice.gov.bc.ca/latww/latww2025/img/LWW_2026_1440x474_horiz.png);    background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
@@ -148,7 +147,7 @@
     padding: 1rem;
 }
 [data-bs-theme=light] .banner-image {
-    background-color: var(--gov-primary-blue);
+    background-image: url(https://learn.bcpublicservice.gov.bc.ca/latww/latww2025/img/LWW_2026_1440x474_horiz.png);    background-position: center;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;

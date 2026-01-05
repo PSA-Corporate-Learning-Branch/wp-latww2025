@@ -24,7 +24,7 @@ while (have_posts()) :
             <div class="container-lg p-lg-5 p-4 bg-light-subtle">
                 <h2>Registration tips</h2>
                                 <ul>
-                    <li>The L@WW website provides direct links to register for each session in the learning system. You do not need formal approval from your supervisor to register for most sessions. Fierce Foundations does require supervisor approval.</li>
+                    <li>The L@WW website provides direct links to register for each session in the learning system. You do not need formal approval from your supervisor to register.</li>
                     <li>All sessions are fully virtual, taking place on MS Teams.</li>
                     <li>If you are unable to attend a session, please drop the course in the learning system as soon as possible. This allows another employee to participate in the learning.</li>
                     <li>Registration closes at the end of each session so you can join at the last minute if there is space in the session.</li>
@@ -80,7 +80,7 @@ while (have_posts()) :
                         </div>
                     </div>
                     <ol start="4">
-                        <li> Finally, make sure the items are in your calendar. Outlook does not provide a confirmation message that they have been created. This is also a chance to add a reminder to your session, or a colour (Categorize) to make it stand out </li>
+                        <li>Finally, make sure the items are in your calendar. Outlook does not provide a confirmation message that they have been created. This is also a chance to add a reminder to your session, or a colour (Categorize) to make it stand out </li>
                     </ol>
                     <div class="card bg-dark-subtle shadow-sm">
                         <div class="card-body">

@@ -114,18 +114,15 @@
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="/latww2025/">Home</a>
                         </li>
-                       <!-- <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="/latww2025/session-schedule/">Session Schedule</a>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/latww2025/playlists/">Learning Playlists</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="/latww2025/daily-newsletter/">Daily Newsletter</a>
+                            <a class="nav-link" aria-current="page" href="/latww2025/session-schedule/">Live Sessions</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="/latww2025/how-to-register/">How to Register</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="/latww2025/video-index/">Session Recordings</a>
-                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link" href="/learn-at-work-week/" target="_blank" rel="noopener noreferrer">L@WW Event Archive<i class="bi bi-box-arrow-up-right ms-2" aria-hidden="true"></i><span class="visually-hidden"> (opens a new window)</span></a>
                         </li>
@@ -164,5 +161,4 @@
 
             </div>
         </nav>
-        <div class="alert alert-warning my-3 text-center" role="alert"><strong>L@WW: Your Time to Learn</strong> will run from February 2 to 6, 2026. More details coming soon.</div>
     </header><!-- #masthead -->
