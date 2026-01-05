@@ -118,7 +118,7 @@
                             <a class="nav-link" aria-current="page" href="/latww2025/playlists/">Learning Playlists</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="/latww2025/session-schedule/">Live Sessions</a>
+                            <a class="nav-link" aria-current="page" href="/latww2025/session-schedule/">Session Schedule</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="/latww2025/how-to-register/">How to Register</a>
