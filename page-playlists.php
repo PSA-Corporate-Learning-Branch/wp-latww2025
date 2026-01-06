@@ -51,11 +51,11 @@ while (have_posts()) :
                 <div class="row mt-3 mb-5">
                     <div class="col-md-4">
                         <ul class="nav nav-pills flex-column mb-2 mb-md-0" id="playlists" role="tablist" aria-orientation="vertical">
-                            <li class="nav-item"><button class="nav-link active" id="playlist1-tab" data-toggle="tab" href="#playlist1" role="tab" aria-controls="playlist1" aria-selected="true">1. Plan, Prepare, Learn</button></li>
-                            <li class="nav-item"><button class="nav-link" id="playlist2-tab" data-toggle="tab" href="#playlist2" role="tab" aria-controls="playlist2" aria-selected="false">2. Leadership</button></li>
-                            <li class="nav-item"><button class="nav-link" id="playlist3-tab" data-toggle="tab" href="#playlist3" role="tab" aria-controls="playlist3" aria-selected="false">3. Ethics and Respect at Work</button></li>
-                            <li class="nav-item"><button class="nav-link" id="playlist4-tab" data-toggle="tab" href="#playlist4" role="tab" aria-controls="playlist4" aria-selected="false">4. Building Inclusion</button></li>
-                            <li class="nav-item"><button class="nav-link" id="playlist5-tab" data-toggle="tab" href="#playlist5" role="tab" aria-controls="playlist5" aria-selected="false">5. Essential Skills</button></li>
+                            <li class="nav-item" role="presentation"><button class="nav-link active" id="playlist1-tab" data-bs-toggle="tab" data-bs-target="#playlist1" role="tab" aria-controls="playlist1" aria-selected="true">1. Plan, Prepare, Learn</button></li>
+                            <li class="nav-item" role="presentation"><button class="nav-link" id="playlist2-tab" data-bs-toggle="tab" data-bs-target="#playlist2" role="tab" aria-controls="playlist2" aria-selected="false">2. Leadership</button></li>
+                            <li class="nav-item" role="presentation"><button class="nav-link" id="playlist3-tab" data-bs-toggle="tab" data-bs-target="#playlist3" role="tab" aria-controls="playlist3" aria-selected="false">3. Ethics and Respect at Work</button></li>
+                            <li class="nav-item" role="presentation"><button class="nav-link" id="playlist4-tab" data-bs-toggle="tab" data-bs-target="#playlist4" role="tab" aria-controls="playlist4" aria-selected="false">4. Building Inclusion</button></li>
+                            <li class="nav-item" role="presentation"><button class="nav-link" id="playlist5-tab" data-bs-toggle="tab" data-bs-target="#playlist5" role="tab" aria-controls="playlist5" aria-selected="false">5. Essential Skills</button></li>
                         </ul>
                     </div>
                     <div class="col-md-8 pl-md-0">
