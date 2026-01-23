@@ -38,7 +38,7 @@ while (have_posts()) :
                         <h4>Learning outcomes</h4>
                         <p>By the end of this session, learners will be able to: </p>
                         <ul>
-                            <li>Navigate key corporate learning platforms, including Moodle, the Learning Hub, and the Employee Learning Management System.</li>
+                            <li>Navigate key corporate learning platforms, including Moodle, the Learning Hub, and the Enterprise Learning Management System.</li>
                             <li>Check their learning record, locate required resources, and understand where to find course information.</li>
                             <li>Register for courses and understand how to manage course-related tasks such as finding materials or adding items to their calendar.</li>
                             <li>Ask questions and receive real-time guidance or follow-up responses, with the full Q&A posted on the Learn at Work Week website.</li>
