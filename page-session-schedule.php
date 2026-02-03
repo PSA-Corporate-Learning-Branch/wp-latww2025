@@ -70,7 +70,7 @@ while (have_posts()) :
                     </div>
                     <!-- Sidebar Section -->
                     <div class="col-lg-4">
-                        <div class="card shadow-sm rounded">
+                        <div class="card shadow-sm rounded mb-3">
                             <div class="card-body fs-6">
                                 <h3 class="card-title fs-4">Choose how to use the time</h3>
                                 <ul class="card-text">
