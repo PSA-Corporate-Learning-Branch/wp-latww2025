@@ -82,6 +82,8 @@ while (have_posts()) :
                                 <p class="card-text">The full Q&A will be posted on the L@WW website after the session for reference.</p>
                             </div>
                         </div>
+                        <h4>Session Materials</h4>
+                        <p><a href="https://learn.bcpublicservice.gov.bc.ca/latww/latww2025/ppt/LatWW-YT2L-PPT-website.pptx" class="btn btn-secondary">Download Slide Deck (PPT)</a></p>
                     </div>
                 </div>
             </div>
