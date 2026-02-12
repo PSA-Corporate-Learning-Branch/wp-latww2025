@@ -19,7 +19,7 @@
                 <p>This special edition of L@WW is designed to give you flexibility and choice. L@WW: Your Time to Learn encourages you to set aside time during the week to explore courses from the corporate learning catalogue. You'll find learning playlists featuring recommended courses, micro-learning and learning pathways.</p>
                 <p>Two live virtual sessions will provide a chance to get learning support from the Corporate Learning Branch. Drop in for an hour of demos, practical tips, and answers to your questions about corporate learning.</p>
                 <a href="/latww2025/playlists/" class="btn btn-primary">Check out the five playlists</a>
-                <a href="/latww2025/session-schedule/" class="btn btn-primary">Learn about the live sessions</a>
+                <a href="/latww2025/qa-your-time-to-ask-and-learn/" class="btn btn-primary">Read the Q&A summary</a>
 
 
             </div>

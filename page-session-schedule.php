@@ -84,6 +84,8 @@ while (have_posts()) :
                         </div>
                         <h4>Session Materials</h4>
                         <p><a href="https://learn.bcpublicservice.gov.bc.ca/latww/latww2025/ppt/LatWW-YT2L-PPT-website.pptx" class="btn btn-secondary">Download Slide Deck (PPT)</a></p>
+                        <h4>Q&A summary</h4>
+                        <p><a href="/latww2025/qa-your-time-to-ask-and-learn/" class="btn btn-secondary">Get answers to your questions</a></p>
                     </div>
                 </div>
             </div>
