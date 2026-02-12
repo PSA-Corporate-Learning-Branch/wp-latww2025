@@ -58,6 +58,7 @@ while (have_posts()) :
     <div class="bg-secondary-subtle">
         <div class="container-lg p-md-5 p-4 bg-light-subtle">
             <div id="main">
+                <?= the_content() ?>
             </div>
         </div>
     </div>
